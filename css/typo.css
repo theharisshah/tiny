@@ -1,0 +1,43 @@
+.h1 {
+    font-size: 2.8571rem;
+}
+
+.h2 {
+    font-size: 2.2857rem;
+}
+
+.h3 {
+    font-size: 1.8571rem;
+}
+
+.h4 {
+    font-size: 1.5714rem;
+}
+
+.h5 {
+    font-size: 1.42857rem;
+}
+
+.h6 {
+    font-size: 1.1428rem;
+}
+
+.regular {
+    font-size: 1rem;
+}
+
+.small {
+    font-size: 0.7857rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}

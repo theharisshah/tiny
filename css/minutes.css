@@ -1,0 +1,43 @@
+.list {
+    list-style-type: none;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.inline-flex {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.main-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.cross-center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.center {
+    margin: auto;
+}
+
+.hr-light {
+    height: 1px;
+    border: none;
+    background-color: #f0f0f0;
+}
+
+.hidden {
+    display: none;
+}

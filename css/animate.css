@@ -1,0 +1,15 @@
+.animate {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.slidedown {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height 0.3s cubic-bezier(1, 0.5, 0.5, 1);
+    transition: max-height 0.3s cubic-bezier(1, 0.5, 0.5, 1);
+}
+
+.slidedown.active {
+    max-height: 1000px;
+}
