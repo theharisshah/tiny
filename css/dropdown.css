@@ -1,0 +1,17 @@
+.grid [data-toggle="popover"]~div {
+    margin-top: 40px;
+    position: absolute;
+    border-radius: 2px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.grid [data-toggle="popover"]~div li {
+    padding: 10px;
+    border-bottom: #e4e4e4;
+}
+
+.grid [data-toggle="popover"]~div li:last-child {
+    border-bottom: none;
+}

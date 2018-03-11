@@ -7,16 +7,19 @@
     display: none;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
+    -webkit-align-items: center;
+            align-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
+    -webkit-justify-content: center;
+            justify-content: center;
     position: fixed;
 }
 
 .modal.active {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
 }
 
@@ -36,6 +39,8 @@
     border-radius: 3px;
     background-color: #fff;
     border: 1px solid #f2f6f7;
+    max-height: 80%;
+    overflow-y:auto;
 }
 
 .modal-backdrop {
@@ -45,7 +50,7 @@
     bottom: 0;
     z-index: 5;
     display: none;
-    position: absolute;
+    position: fixed;
     background-color: rgba(0, 0, 0, 0.5);
 }
 

@@ -2,6 +2,7 @@ html {
     height: 100%;
     margin: auto;
     font-size: 14px;
+    line-height: 18px;
     max-width: 1920px;
 }
 
@@ -12,7 +13,7 @@ body {
     font-size: inherit;
     word-wrap: break-word;
     background-color: #f0f0f0;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body *, body *::before, body *::after {
@@ -22,8 +23,8 @@ body *, body *::before, body *::after {
     font-family: inherit;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    /*-webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;*/
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -32,6 +33,7 @@ body *, body *::before, body *::after {
 h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
+    font-weight: normal;
 }
 
 a {
@@ -41,4 +43,8 @@ a {
 
 table {
     border-collapse: collapse;
+}
+
+img, canvas {
+    max-width: 100%;
 }

@@ -1,25 +1,31 @@
 .h1 {
-    font-size: 2.8571rem;
+    font-size: 2.2857rem;
+    line-height: 2.2857rem;
 }
 
 .h2 {
-    font-size: 2.2857rem;
+    font-size: 2rem;
+    line-height: 2rem;
 }
 
 .h3 {
-    font-size: 1.8571rem;
+    font-size: 1.7145rem;
+    line-height: 1.7145rem;
 }
 
 .h4 {
-    font-size: 1.5714rem;
+    font-size: 1.42857rem;
+    line-height: 1.42857rem;
 }
 
 .h5 {
-    font-size: 1.42857rem;
+    font-size: 1.2857rem;
+    line-height: 1.2857rem;
 }
 
 .h6 {
     font-size: 1.1428rem;
+    line-height: 1.1428rem;
 }
 
 .regular {
@@ -40,4 +46,16 @@
 
 .text-right {
     text-align: right;
+}
+
+.font-primary {
+    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.font-secondary {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.capitalize {
+    text-transform: capitalize;
 }
